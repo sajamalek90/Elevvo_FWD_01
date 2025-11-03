@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapsible Sidebar | Task-1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <div class="logo-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-code"></i>
+                </div>
+                <span class="logo-text">DevPortal</span>
+            </div>
+            <button class="toggle-btn">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#" class="active">
+                    <i class="fas fa-home"></i>
+                    <span class="link-text">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-tasks"></i>
+                    <span class="link-text">Tasks</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-code-branch"></i>
+                    <span class="link-text">Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <span class="link-text">Analytics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span class="link-text">Settings</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Mobile Menu Button -->
+    <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <span class="level">Level 1</span>
+            <h1>Build a Collapsible Sidebar</h1>
+            <p class="task-number">Task 1</p>
+            <p class="description">
+                Create a sidebar section that can open and close when the user clicks a button. 
+                The sidebar should include a placeholder for a logo at the top, a list of 4–5 links with icons, 
+                and a button to toggle the sidebar open or closed. Focus on clean layout and smooth open/close animation.
+            </p>
+        </section>
+
+        <!-- Task Details -->
+        <section class="task-details">
+            <h2><i class="fas fa-info-circle"></i> Task Details</h2>
+            
+            <div class="requirements">
+                <h3><i class="fas fa-list-check"></i> Requirements</h3>
+                <ul>
+                    <li>A placeholder for a logo at the top</li>
+                    <li>A list of 4–5 links with icons</li>
+                    <li>A button to toggle the sidebar open or closed</li>
+                    <li>Clean layout and smooth open/close animation</li>
+                </ul>
+            </div>
+            
+            <div class="tools">
+                <h3><i class="fas fa-toolbox"></i> Tools & Libraries</h3>
+                <table class="tools-table">
+                    <thead>
+                        <tr>
+                            <th>Technology</th>
+                            <th>Covered Topics</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Component Layout</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Animation & Transitions</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Toggle Logic & Event Handling</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="bonus">
+                <h3><i class="fas fa-star"></i> Bonus Features</h3>
+                <ul>
+                    <li>Make the sidebar responsive on mobile screens</li>
+                    <li>Add smooth hover effects and transitions</li>
+                    <li>Implement a professional color scheme</li>
+                    <li>Include visual feedback for interactive elements</li>
+                </ul>
+            </div>
+            
+            <div class="status-badge">
+                <i class="fas fa-check-circle"></i>
+                <span>Task Completed Successfully</span>
+            </div>
+        </section>
+        
+        <div class="footer">
+            <p>© 2025 Frontend Development Portal | Professional Sidebar Implementation</p>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
